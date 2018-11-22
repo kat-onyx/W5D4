@@ -1,0 +1,28 @@
+/* PHASE 3: Layout */
+.content {
+  min-height: 200px;
+  position: relative;
+  /* display: flex; */
+}
+.content-sidebar {
+  position: absolute;
+  left: 113px;
+  top: -1px;
+  min-height: 200px;
+  background: green;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  border: 1px solid grey;
+}
+.content-main {
+  position: absolute;
+  right: 111px;
+  top: -10.5px;
+  min-height: 200px;
+  background: pink;
+  display: inline-block;
+  width: 647px;
+  height: 200px;
+  border: 1px solid grey;
+}
